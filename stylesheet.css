@@ -1,0 +1,229 @@
+.heading{text-decoration:underline;
+text-decoration-color:red;
+font-size: xx-large;
+color:gold;
+}
+
+
+
+
+.flex-container{
+    display: flex;
+    background-color: lightcoral;
+    justify-self: start;
+}
+.flex-container>div{
+    background-color: blue;
+    padding: 15px;
+    margin: 10px;
+    font-size: 50px;
+}
+.flex-container2>div{
+    background-color: aqua;
+    margin: 10px;
+    width: 80px;
+    line-height: 50px;
+font-size: 50px;
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.flex-container2{
+    display: flex;
+    background-color:orangered;
+    width: 400px;
+}
+.flex-container3>div{
+    background-color: blueviolet;
+    margin: 10px;
+    width: 100px;
+    line-height: 60px;
+    font-size:80px;
+    text-align: center;
+}
+.flex-container3{
+    display: flex;
+    background-color: rgb(26, 194, 17);
+    width: 600;
+    flex-direction: column-reverse;
+}
+.flex-container4>div{
+    background-color:lightgrey;
+    margin: 10px;
+    width: 60px;
+    line-height: 60px;
+    font-size:50px;     
+    text-align: center;
+}
+.flex-container4{
+    display: flex;
+    background-color: rgb(58, 214, 228);
+    width: 200;
+    flex-direction: row-reverse;
+}
+.flex-container5>div{
+    background-color:rgb(15, 18, 106);
+    margin: 10px;
+    width: 70px;
+    line-height: 60px;
+    font-size:50px;     
+    text-align: center;
+}
+.flex-container5{
+    display: flex;
+    background-color: rgba(224, 234, 33, 0.714);
+    width: 100;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.flex-container6>div{
+    background-color:white;
+    margin: 10px;
+    width: 70px;
+    line-height: 60px;
+    font-size:50px;     
+    text-align: center;
+}
+.flex-container6{
+    display: flex;
+    background-color:orange;
+    width: 100;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
+    .flex-container7>div{
+        background-color:yellow;
+        margin: 10px;
+        width: 70px;
+        line-height: 60px;
+        font-size:50px;     
+        text-align: center;
+    }
+    .flex-container7{
+        display: flex;
+        background-color:black;
+        width: 100;
+        flex-direction:row;
+        flex-wrap:wrap-reverse;
+}
+.flex-container8>div{
+    background-color:teal;
+    margin: 10px;
+    width: 70px;
+    line-height: 60px;
+    font-size:50px;    
+    text-align: center; 
+    
+}
+.flex-container8{
+    display: flex;
+    background-color:purple;
+    justify-content: center;
+}
+
+    .flex-container9>div{
+        background-color:lightblue;
+        margin: 10px;
+        width: 70px;
+        line-height: 60px;
+        font-size:50px;    
+        text-align: center; 
+    }
+    
+    .flex-container9{
+        display: flex;
+        background-color:hotpink;
+        justify-content: space-around;
+    
+}
+.flex-container10>div{
+    background-color:lightblue;
+    margin: 10px;
+    width: 70px;
+    line-height: 60px;
+    font-size:50px;    
+    text-align: center; 
+}
+
+.flex-container10{
+    display: flex;
+    background-color:chocolate;
+    justify-content:space-between;
+
+}
+.flex-container11>div{
+    background-color:rgb(201, 173, 230);
+    margin: 10px;
+    width: 70px;
+  line-height: 60px;
+    font-size: 50px;
+    text-align: center;
+    color:red;
+
+}
+
+.flex-container11{
+    display: flex;
+    background-color:green;
+    align-items: stretch;
+
+}
+
+
+.flex-container12>div{
+    background-color:rgb(201, 173, 230);
+    margin: 10px;
+    width: 70px;
+  line-height: 60px;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+
+}
+
+.flex-container12{
+    display: flex;
+    background-color:rgb(32, 0, 128);
+    align-items: stretch;
+
+}
+
+.flex-container13>div{
+    background-color:rgb(201, 173, 230);
+    margin: 10px;
+    width: 70px;
+  line-height: 60px;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+
+}
+
+.flex-container13{
+    display: flex;
+    background-color:orange;
+    align-items: stretch;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container14 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
